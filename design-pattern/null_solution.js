@@ -12,7 +12,7 @@ USE CASE
 // CASE1 : check is user login
 
 class User {
-  constructor() {
+  constructor(id,name) {
     this.id = id;
     this.name = name;
   }
